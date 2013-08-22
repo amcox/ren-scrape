@@ -28,5 +28,5 @@ def summarize_csv(output_filename="", file_list=[])
   end
 end
 
-summarize_csv("reading_summary#{Time.now.strftime('%Y%m%d-%H%M%S')}.csv", reading_files)
-summarize_csv("math_summary#{Time.now.strftime('%Y%m%d-%H%M%S')}.csv", math_files)
+summarize_csv("reading_summary.csv", reading_files)
+summarize_csv("math_summary.csv", math_files)
