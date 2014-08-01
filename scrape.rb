@@ -19,4 +19,4 @@ Dir.glob("#{Dir.getwd}/downloads/*.csv") do |filename|
   File.delete(filename)
 end
 
-require "#{Dir.getwd}/upload.rb"
+# require "#{Dir.getwd}/upload.rb"

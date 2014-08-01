@@ -29,11 +29,11 @@ class RenScraper
   def get_to_psp_page
     url = "https://hosted133.renlearn.com/2812548/Public/RPM/Login/Login.aspx?srcID=t"
     session.visit(url)
-    session.fill_in "ctl00_cp_Content_tbUserName", :with => "A.cox"
-    session.fill_in "ctl00_cp_Content_tbPassword", :with => "renew2013"
+    session.fill_in "tbUserName", :with => "A.cox"
+    session.fill_in "tbPassword", :with => "renew2013"
     session.click_button "Log In"
     # Open navigation menu
-    session.find(:xpath, "//*[@id='ctl00_cp_Content_rptMenu_ctl00_spMenuBtnText']").click
+    # session.find(:xpath, "//*[@id='ctl00_cp_Content_rptMenu_ctl00_spMenuBtnText']").click
     # Click on the link to go to the students, staff, parents page
     begin
       retry_count = 0
@@ -46,7 +46,7 @@ class RenScraper
         retry
       end
     end
-    session.find(:xpath, "//a[@href='SIS/StaffStudentsParents/StaffStudentsParents.aspx']").click
+    session.first(:xpath, "//a[@href='SIS/StaffStudentsParents/StaffStudentsParents.aspx']").click
   end
   
   def get_to_export_school_list
