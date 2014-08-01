@@ -1,0 +1,16 @@
+# Logfile created on 2014-03-10 14:03:21 -0500 by logger.rb/41954
+I, [2014-03-10T14:03:21.305741 #57874]  INFO -- : 0:  mime-types (2.0) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/mime-types-2.0.gemspec
+I, [2014-03-10T14:03:22.770470 #57874]  INFO -- : 0:  mini_portile (0.5.2) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/mini_portile-0.5.2.gemspec
+I, [2014-03-10T14:09:20.733082 #57874]  INFO -- : 0:  nokogiri (1.6.1) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/nokogiri-1.6.1.gemspec
+I, [2014-03-10T14:09:24.088828 #57874]  INFO -- : 0:  rack (1.5.2) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/rack-1.5.2.gemspec
+I, [2014-03-10T14:09:25.107338 #57874]  INFO -- : 0:  rack-test (0.6.2) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/rack-test-0.6.2.gemspec
+I, [2014-03-10T14:09:26.581168 #57874]  INFO -- : 0:  xpath (2.0.0) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/xpath-2.0.0.gemspec
+I, [2014-03-10T14:09:28.901587 #57874]  INFO -- : 0:  capybara (2.2.0) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/capybara-2.2.0.gemspec
+I, [2014-03-10T14:09:42.830719 #57874]  INFO -- : 0:  ffi (1.9.3) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/ffi-1.9.3.gemspec
+I, [2014-03-10T14:09:44.251193 #57874]  INFO -- : 0:  childprocess (0.3.9) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/childprocess-0.3.9.gemspec
+I, [2014-03-10T14:09:45.726618 #57874]  INFO -- : 0:  double-bag-ftps (0.1.1) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/double-bag-ftps-0.1.1.gemspec
+I, [2014-03-10T14:09:46.944463 #57874]  INFO -- : 0:  multi_json (1.8.2) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/multi_json-1.8.2.gemspec
+I, [2014-03-10T14:09:48.198094 #57874]  INFO -- : 0:  rubyzip (1.1.0) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/rubyzip-1.1.0.gemspec
+I, [2014-03-10T14:09:49.598798 #57874]  INFO -- : 0:  websocket (1.0.7) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/websocket-1.0.7.gemspec
+I, [2014-03-10T14:09:53.228877 #57874]  INFO -- : 0:  selenium-webdriver (2.39.0) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@ren-scrape/specifications/selenium-webdriver-2.39.0.gemspec
+I, [2014-03-10T14:09:53.229933 #57874]  INFO -- : 0:  bundler (1.5.1) from /Users/Andrew/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec

@@ -27,10 +27,10 @@ class RenScraper
   end
   
   def get_to_psp_page
-    url = "https://hosted133.renlearn.com/2812548/Public/RPM/Login/Login.aspx"
+    url = "https://hosted133.renlearn.com/2812548/Public/RPM/Login/Login.aspx?srcID=t"
     session.visit(url)
-    session.fill_in "tbUserName", :with => "A.cox"
-    session.fill_in "tbPassword", :with => "renew2013"
+    session.fill_in "ctl00_cp_Content_tbUserName", :with => "A.cox"
+    session.fill_in "ctl00_cp_Content_tbPassword", :with => "renew2013"
     session.click_button "Log In"
     # Open navigation menu
     session.find(:xpath, "//*[@id='ctl00_cp_Content_rptMenu_ctl00_spMenuBtnText']").click
@@ -60,8 +60,8 @@ class RenScraper
     session.check("m_FlatFileGrid_ctl05_m_Select4")
     session.find("#m_wnButtons_Next").click
     # Fill in form fields and click on next button
-    session.fill_in("m_txtFlatFileStartDate", :with => "7/1/2013")
-    session.fill_in("m_txtFlatFileEndDate", :with => "6/30/2014")
+    session.fill_in("m_txtFlatFileStartDate", :with => "7/1/2014")
+    session.fill_in("m_txtFlatFileEndDate", :with => "6/30/2015")
     session.find("#m_wnButtons_Next").click
     # Wait for exports to be created
     begin

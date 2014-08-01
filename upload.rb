@@ -11,6 +11,8 @@ ftps.connect(hostname)
 ftps.login(username, password)
 ftps.passive = true
 
+ftps.chdir("StarRenaissance")
+
 Dir.glob("#{Dir.getwd}/output_files/*.csv") do |filename|
   ftps.put(File.new(filename))
 end
