@@ -30,7 +30,7 @@ class RenScraper
     url = "https://hosted133.renlearn.com/2812548/Public/RPM/Login/Login.aspx?srcID=t"
     session.visit(url)
     session.fill_in "tbUserName", :with => "A.cox"
-    session.fill_in "tbPassword", :with => "renew2013"
+    session.fill_in "tbPassword", :with => "?+&3P7yp24q9&e>"
     session.click_button "Log In"
     # Open navigation menu
     # session.find(:xpath, "//*[@id='ctl00_cp_Content_rptMenu_ctl00_spMenuBtnText']").click
