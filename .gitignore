@@ -1,3 +1,4 @@
 ren-scrape.tmproj
 downloads/*
 output_files/*
+!.gitkeep
