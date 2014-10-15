@@ -7,8 +7,12 @@ class RenScraper
 
   def register_auto_dl_driver
     Capybara.register_driver :selenium do |app|
+
+      dl_dir = "#{Dir.getwd}/downloads"
+      dl_dir.gsub!("/", "\\") if Selenium::WebDriver::Platform.windows?
+
       profile = Selenium::WebDriver::Firefox::Profile.new
-      profile['browser.download.dir'] = "#{Dir.getwd}/downloads"
+      profile['browser.download.dir'] = dl_dir
       profile['browser.download.folderList'] = 2
       profile['browser.helperApps.neverAsk.saveToDisk'] = "text/csv, application/x-unknown"
       Capybara::Selenium::Driver.new(app, :browser => :firefox, :profile => profile)
